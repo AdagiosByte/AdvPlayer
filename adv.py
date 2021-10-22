@@ -8,6 +8,8 @@ while True:
 	time.sleep(2)
 	pyautogui.press('enter')
 	time.sleep(28) #load time
+
+	pyautogui.click(1200, 900) #close popup
 	pyautogui.doubleClick(1280, 250) #dollar tag
 
 	#buy upgrades
