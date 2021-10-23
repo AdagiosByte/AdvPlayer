@@ -7,10 +7,10 @@ while True:
 	pyautogui.click(400, 500)
 	time.sleep(2)
 	pyautogui.press('enter')
-	time.sleep(28) #load time
+	time.sleep(30) #load time
 
 	pyautogui.click(1200, 900) #close popup
-	pyautogui.doubleClick(1280, 250) #dollar tag
+	pyautogui.tripleClick(1280, 250) #dollar tag
 
 	#buy upgrades
 	pyautogui.click(200, 550) #upgrades
